@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="ru" id=home>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>ROD</title>
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<style>
+		.preloader {
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  z-index: 9999;
+		  background-color: #fff; }
+		  .preloader .pulse {
+		    position: relative;
+		    left: 50%;
+		    top: 50vh;
+		    margin: -40px 0 0 -40px; }
+		    .preloader .pulse::before, .preloader .pulse::after {
+		      content: '';
+		      border: 5px solid #2953dd;
+		      height: 80px;
+		      width: 80px;
+		      -webkit-border-radius: 50%;
+		              border-radius: 50%;
+		      position: absolute; }
+		    .preloader .pulse::before {
+		      -webkit-animation: pulse-outer .8s ease-in infinite;
+		              animation: pulse-outer .8s ease-in infinite; }
+		    .preloader .pulse::after {
+		      -webkit-animation: pulse-inner .8s ease-in infinite;
+		              animation: pulse-inner .8s ease-in infinite; }
+
+		@-webkit-keyframes pulse-outer {
+		  0% {
+		    opacity: 1;
+		    filter: alpha(opacity(100)); }
+		  50% {
+		    opacity: 0.5;
+		    filter: alpha(opacity(50)); }
+		  100% {
+		    opacity: 0;
+		    filter: alpha(opacity(0)); } }
+
+		@keyframes pulse-outer {
+		  0% {
+		    opacity: 1;
+		    filter: alpha(opacity(100)); }
+		  50% {
+		    opacity: 0.5;
+		    filter: alpha(opacity(50)); }
+		  100% {
+		    opacity: 0;
+		    filter: alpha(opacity(0)); } }
+
+		@-webkit-keyframes pulse-inner {
+		  0% {
+		    opacity: 1;
+		    filter: alpha(opacity(100));
+		    -webkit-transform: scale(0);
+		            transform: scale(0); }
+		  100% {
+		    opacity: 0;
+		    filter: alpha(opacity(0));
+		    -webkit-transform: scale(1);
+		            transform: scale(1); } }
+
+		@keyframes pulse-inner {
+		  0% {
+		    opacity: 1;
+		    filter: alpha(opacity(100));
+		    -webkit-transform: scale(0);
+		            transform: scale(0); }
+		  100% {
+		    opacity: 0;
+		    filter: alpha(opacity(0));
+		    -webkit-transform: scale(1);
+		            transform: scale(1); } }
+
+	</style>
+
+</head>
+<body>
+
+	<div class="preloader">
+		<div class="pulse"></div>
+	</div>
+
+	<header class="header__container">
+		<div class="container">
+				<div class="header">
+			
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+
+					<div class="header__logo">
+						<a href="#home" class="header__logo-link"><img src="img/logo.png" alt="logo" class="header__logo-img"></a>
+						<div class="header__logo-text">Rod-Consulting Group <br><span>ЮРИДИЧЕСКАЯ КОМПАНИЯ</span></div>
+					</div>
+
+					<p class="header__place">
+						<i class="fa fa-map-marker"></i>
+						г. Москва, Проспект Мира, 105, стр.1, <br>офис 413, здание Гознака, м.ВДНХ, м. Алексеевская
+						<a href="mailto:rod-consulting@yandex.ru" class="header__mail">rod-consulting@yandex.ru</a>
+					</p>
+
+					<div class="header__info">
+
+						<a href="tel:+74957758137" class="header__tel">+7 495 775 81 37</a>
+						Звонок по России бесплатно<br>
+						<a href="#" class="header__call callback_open">Заказать звонок</a>
+
+					</div>
+
+				</div>
+		</div>
+
+		<div class="nav__container">
+			<div class="container">
+
+				<nav class="nav">
+
+					<ul class="nav__list" id="menu">
+						<li class="nav__item"><a href="#numbers" class="nav__link">О нас</a></li>
+						<li class="nav__item"><a href="#package" class="nav__link">Тарифы</a></li>
+						<li class="nav__item"><a href="#problem" class="nav__link">Решение</a></li>
+						<li class="nav__item"><a href="#problem-form" class="nav__link">Помощь</a></li>
+						<li class="nav__item"><a href="#work" class="nav__link">Преимущества</a></li>
+						<li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+						<li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+						<li class="nav__item">
+							<div class="nav__place">
+								<i class="fa fa-map-marker"></i>
+								г. Москва, Проспект Мира, 105, стр.1, <br>офис 413, здание Гознака, м.ВДНХ, м. Алексеевская
+								<a href="mailto:rod-consulting@yandex.ru" class="header__mail">rod-consulting@yandex.ru</a>
+							</div>
+						</li>
+						<li class="nav__item">
+							<div class="nav__info">
+								<a href="tel:+74957758137" class="nav__tel">+7 495 775 81 37</a><br>
+								Звонок по России бесплатно<br>
+								<a href="#" class="nav__call callback_open">Заказать звонок</a>
+							</div>
+						</li>
+					</ul>
+
+				</nav>
+
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="header-content">
+
+			<div class="container">
+				<div class="row">
+						
+						<div class="col-lg-8">
+
+							<div class="header-content__container">
+								<h1 class="h1"><span>СПИСАНИЕ ВСЕХ ДОЛГОВ</span> ФИЗИЧЕСКИХ И ЮРИДИЧЕСКИХ ЛИЦ <br>ЧЕРЕЗ ПРОЦЕДУРУ БАНКРОТСТВА</h1>
+
+								<div class="header-content__block-subtitle">В СЛУЧАЕ ОТРИЦАТЕЛЬНОГО РЕШЕНИЯ ВЕРНЕМ ДЕНЬГИ <br>В 100 % ОБЪЕМЕ <span>(УСЛОВИЕ ЗАКРЕПЛЕНО В ДОГОВОРЕ)</span>
+								<br><strong>РАБОТАЕМ ПО ВСЕЙ РОССИИ</strong>
+								</div>
+
+
+								<div class="header-content__block">
+
+									<span class="header-content__block-title">СПЕЦПРЕДЛОЖЕНИЕ!!!! ТОЛЬКО ДО 15.04.2018 г.</span>
+									<div class="clock"></div>
+									<p class="header-content__block-text">
+										- при банкротстве юридического лица, банкротство физического лица (родственника, друга, знакомого и т.п.) В ПОДАРОК!!!!
+									<br>- при банкротстве физического лица - стоимость услуги <br><span class="header-content__outer"><span class="header-content__inner"> 90 000 руб </span></span><span class="header-content__height"> 70 000 руб.</span> (Все включено!!!)</p>
+
+								</div>
+
+								<div class="header-content__sub-title">
+
+									<span class="header-content__sub-title_title">Rod-consulting group </span><br>
+									<span class="header-content__sub-title_text">ЭКСПЕРТЫ В ОБЛАСТИ БАНКРОТСТВА И АРБИТРАЖА</span>
+
+								</div>
+
+								<div class="header-content__block-list">
+
+									<ul class="header-content__list">
+										<li class="header-content__item"><i class="fa fa-check-circle"></i>Работаем по договору</li>
+										<li class="header-content__item"><i class="fa fa-check-circle"></i>Обеспечиваем защиту от приставов и коллекторов</li>
+										<li class="header-content__item"><i class="fa fa-check-circle"></i>Прекращаем давление со стороны кредиторов</li>
+										<li class="header-content__item"><i class="fa fa-check-circle"></i>Сохраним Вам и Вашим близким имущество, доход, душевное спокойствие и отличное настроение!</li>
+									</ul>
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+
+							<div class="header-content__form">
+
+								<div class="header-content__form_title">Запишитесь на <span>БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</span> и получите стратегию избавления от <br>долгов <span>ПРЯМО СЕЙЧАС!</span></div>
+
+								<form action="sendmail.php" method="POST" class="header-consultation">
+									<input type="hidden" name="subject" value="Бесплатная Консультация">
+
+									<div class="form-group">
+										<input class="modal__section" type="text" name="name" required placeholder="Ваше Имя"/>
+									</div>
+									<div class="form-group">
+										<input class="modal__section" type="tel" name="phone" required placeholder="Контактный телефон"/>
+									</div>
+
+									<button class="btn header-content__btn" type="submit" >Получить БЕСПЛАТНУЮ консультацию</button>
+								</form>
+
+								<div class="header-content__form_footer">Оставьте заявку и мы перезвоним <br>Вам в течении 5 минут!</div>
+
+							</div>
+						</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+				<div class="main-numbers" id="numbers">
+
+						<h2 class="h2">Наши достижения <br>в цифрах и фактах</h2>
+
+						<div class="main-numbers__container">
+
+							<div class="main-numbers__block"><div class="main-numbers__title">На рынке</div>Банкротство предприятий <br>с 2003 г. </div>
+							<div class="main-numbers__block"><div class="main-numbers__title">Кейсы</div>1560 успешно проведенных <br>дел</div>
+							<div class="main-numbers__block"><div class="main-numbers__title">Опыт</div>15 лет опыта работы</div>
+							<div class="main-numbers__block"><div class="main-numbers__title">Списано</div>Списано долгов - <br>15 300 333 378 руб.</div>
+
+						</div>
+
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<section class="main-service">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-5">
+						<h2 class="h2">Услуга «БАНКРОТСТВО»</h2>
+						<p class="main-service__text">К институту банкротства в нашей стране до сих пор относятся предвзято, считая его «позором» и «долговой ямой», а ситуация, между тем, совсем обратная, и банкротство – это единственный законный способ избавления от долговых обязательств и защита должника от кредиторов.</p>
+						<p class="main-service__text-strong">Во всех развитых странах подобная практика существует давно и успешно. </p>
+					</div>
+
+
+					<div class="col-md-2"></div>
+
+					<div class="col-md-4">
+						<p class="main-service__text main-service__text-line">Стоит также отметить, что нынешний Президент США Дональд Трамп – магнат, мультимиллиардер, владелец целой бизнес-империи, признавался банкротом 4 раза до того, как достиг нынешнего благосостояния.</p>
+
+						<div class="main-service__container">
+							<img src="img/bank-bankrot.png" alt="bank-bankrot" class="main-service__img">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="contain">
+
+			<div class="package" id="package">
+				<div class="container">
+
+					<h2 class="h2 package__h2">ПАКЕТЫ ТАРИФОВ</h2>
+					<div class="package__subtitle">на услуги ООО «ROD-CONSULTING GROUP»</div>
+
+						<div class="package__block-list">
+
+							<ul class="package__list tabs">
+								<li class="package__item"><a href="#one" class="package__link">Физическим лицам</a></li>
+								<li class="package__item"><a href="#two" class="package__link">Юридическим лицам</a></li>
+							</ul>
+
+						</div>
+
+						<div id="one" class="tab__wrap">
+									
+									<div class="package__block">
+
+										<div class="package__block-title">
+											<div class="package__tab-title">ТАРИФ «ЛАЙТ»</div>
+											<div class="package__tab-subtitle">20 000 <i class="fa fa-rub"></i></div>
+										</div>
+
+										<ul class="package__items">
+											<li class="package__items-text">Проведение первичной консультации</li>
+											<li class="package__items-text">Анализ ситуации и документов</li>
+											<li class="package__items-text">Выработка эффективной стратегии списания долгов</li>
+											<li class="package__items-text">Написание заявления о признании гражданина банкротом</li>
+											<li class="package__items-text">Оплата госпошлины</li>
+										</ul>
+
+										<div class="package__block-btn">
+											<button class="btn package__btn order-lite_open">Заказать услугу </button>
+										</div>
+									</div>
+
+
+									<div class="package__block">
+
+										<div class="package__block-title package__block-title_active">
+											<div class="package__tab-title package__tab-title_active">ТАРИФ «ОПТИМАЛЬНЫЙ»</div>
+											<div class="package__tab-subtitle package__tab-subtitle_active">70 000 <i class="fa fa-rub"></i></div>
+										</div>
+
+										<ul class="package__items">
+											<li class="package__items-text">Проведение первичной консультации</li>
+											<li class="package__items-text">Анализ документов и ситуации</li>
+											<li class="package__items-text">Выработка эффективной стратегии списания долгов</li>
+											<li class="package__items-text">Написание искового заявления о признании гражданина банкротом</li>
+											<li class="package__items-text">Оплата госпошлины</li>
+											<li class="package__items-text">Предоставление саморегулируемой организации арбитражных управляющих</li>
+											<li class="package__items-text">Утверждение кандидатуры арбитражного управляющего в суде</li>
+											<li class="package__items-text">Оплата публикации</li>
+										</ul>
+
+										<div class="package__block-btn">
+											<button class="btn package__btn order-optimal_open">Заказать услугу </button>
+										</div>
+									</div>
+
+									<div class="package__block">
+
+										<div class="package__block-title">
+											<div class="package__tab-title">ТАРИФ «ПРЕМИУМ»</div>
+											<div class="package__tab-subtitle">от 100 000 <i class="fa fa-rub"></i></div>
+										</div>
+
+										<ul class="package__items">
+											<li class="package__items-text">Проведение индивидуальной структурированной процедуры банкротства с учетом суммы кредиторской задолженности и наличии имущественных активов должника</li>
+											<li class="package__items-text">Согласовывается индивидуально</li>
+											<li class="package__items-text">Предоставляются гарантии</li>
+										</ul>
+
+										<div class="package__block-btn">
+											<button class="btn package__btn order-premium_open">Заказать услугу</button>
+										</div>
+									</div>
+
+						</div>
+
+						<div id="two" class="tab__wrap">
+									
+									<div class="package__block">
+
+										<div class="package__block-title">
+											<div class="package__tab-title">ТАРИФ «ОПТИМАЛЬНЫЙ»</div>
+											<div class="package__tab-subtitle">30 000 <i class="fa fa-rub"></i></div>
+										</div>
+
+										<ul class="package__items">
+											<li class="package__items-text">Юридическая поддержка с момента обращения к нам с проблемой до момента завершения процедуры банкротства и полного списания долгов </li>
+											<li class="package__items-text">Анализ ситуации и документов</li>
+											<li class="package__items-text">Выработка тактики поведения клиента и стратегии защиты</li>
+											<li class="package__items-text">Составление индивидуального графика проведения процедуры банкротства </li>
+											<li class="package__items-text">Поэтапная оплата</li>
+										</ul>
+										<div class="package__block-btn">
+											<button class="btn package__btn order-u-optimal_open">Заказать услугу </button>
+										</div>
+									</div>
+
+
+									<div class="package__block">
+
+										<div class="package__block-title package__block-title_active">
+											<div class="package__tab-title package__tab-title_active">ТАРИФ «ПРЕМИУМ»</div>
+											<div class="package__tab-subtitle package__tab-subtitle_active">100 000 <i class="fa fa-rub"></i></div>
+										</div>
+
+										<ul class="package__items">
+											<li class="package__items-text">Юридическая поддержка с момента обращения к нам с проблемой до момента достижения результата, прописанного в договоре</li>
+											<li class="package__items-text">Анализ ситуации и документов</li>
+											<li class="package__items-text">Выработка тактики поведения клиента и стратегии защиты/нападения</li>
+											<li class="package__items-text">Составление индивидуального графика проведения процедуры банкротства</li>
+											<li class="package__items-text">Оптимизация кредиторской задолженности</li>
+											<li class="package__items-text">Защита от административной, субсидиарной, уголовной ответственности (для должника)</li>
+											<li class="package__items-text">Привлечение к административной, субсидиарной, уголовной ответственности (для кредитора)</li>
+											<li class="package__items-text">Представление СРО</li>
+											<li class="package__items-text">Представление кандидатуры арбитражного управляющего</li>
+											<li class="package__items-text">Оспаривание сделок (для кредитора)</li>
+											<li class="package__items-text">Условия проведения процедуры банкротства, стоимость, сроки и РЕЗУЛЬТАТ оговариваются индивидуально, и прописываются в договоре.</li>
+
+										</ul>
+
+										<div class="package__block-btn">
+											<button class="btn package__btn order-u-premium_open">Заказать услугу </button>
+										</div>
+									</div>
+
+						</div>
+
+
+				</div>
+			</div>
+
+			<div class="get">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-6">
+							<div class="get__block get__block-one">
+								<h2 class="get__title">Доверив нам борьбу с Вашими долгами, <span class="get__title-span">Вы получаете:</span></h2>
+
+								<ul class="get__list">
+									<li class="get__item"><div class="get__item_sircle">1</div><strong>Юридическую поддержку</strong> с момента обращения в нашу компанию до признания Вас банкротом и списания полностью всех долгов</li>
+									<li class="get__item"><div class="get__item_sircle">2</div><strong>Гарантированную защиту</strong> от действий коллекторов, кредиторов, банков, приставов</li>
+								</ul>
+
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="get__block get__block-two">
+
+								<ul class="get__list">
+									<li class="get__item"><div class="get__item_sircle">3</div><strong>Сохранность</strong> Вашего имущества и денежных средств</li>
+									<li class="get__item"><div class="get__item_sircle">4</div><strong>Снятие запрета</strong> на выезд за границу и ареста с имущества</li>
+									<li class="get__item"><div class="get__item_sircle">5</div><strong>Признания Вас банкротом</strong> и полное списание ВСЕХ долговых обязательств</li>
+								</ul>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="problem" id="problem">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12"><h2 class="h2 problem__h2">Типовые проблемы <br>клиентов и их решение</h2></div>
+
+				</div>
+
+					<div class="problem__contain">
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">Наличие "тяжелых" для оплаты кредитов и кредитных карт</p>
+					
+							<button class="btn problem__btn order-consultation_open">ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ ПРЯМО СЕЙЧАС</button>
+
+						</div>
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">Дебиторская задолженность, иные долги от предпринимательской деятельности</p>
+					
+							<button class="btn problem__btn order-offer_open">Получить уникальное предложение <br>по специальной цене ПРЯМО СЕЙЧАС!</button>
+							
+						</div>
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">В отношении Вас идут суды, работают приставы, возбуждено исполнительное производство</p>
+					
+							<button class="btn problem__btn order-law_open">Узнайте, как прекратить суды и исполнительное производство</button>
+							
+						</div>
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">Наличие долговых расписок, договоров займа, поручительства, займов в микрофинансовых организациях. Как перестать быть жертвой психологического давления?</p>
+					
+							<button class="btn problem__btn order-debt_open">ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ ПРЯМО СЕЙЧАС</button>
+
+						</div>
+
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">Имеются долги по ЖКХ, налогам, взносам. Не упустите свой шанс, списать их по специальной цене на уникальных условиях!</p>
+					
+							<button class="btn problem__btn order-communal_open">Списать все долги по налогам, <br>взносам и ЖКХ!</button>
+							
+						</div>
+
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">Есть запрет на выезд за границу Снимем все ограничения и откроем для Вас удивительный мир путешествий!</p>
+					
+							<button class="btn problem__btn order-world_open">Хочу открыть для себя весь мир!</button>
+							
+						</div>
+
+						<div class="problem__block">
+
+							<div class="problem__sircle"></div>
+
+							<p class="problem__text">Штрафы, неустойки, пени</p>
+					
+							<button class="btn problem__btn order-fine_open">Узнайте, как сохранить эти деньги <br>ПРЯМО СЕЙЧАС!</button>
+
+						</div>
+
+					</div>
+			</div>
+
+			<div class="container">
+					<div class="problem-form" id="problem-form">
+
+							<form class="form-problem">
+
+										<div class="">
+											<h3 class="problem-form__title">Хотите узнать как поступить <br>в Вашей ситуации?</h3>
+											<textarea name="question" class="problem-form__textarea" placeholder="Опишите проблему"></textarea>
+										</div>
+
+										<div class="problem-form__block">
+											<input type="hidden" name="subject" value="Узнать как поступить в Вашей ситуации?">
+											<div class="form-group">
+												<input class="modal__section" type="text" name="name" required placeholder="Ваше Имя"/>
+											</div>
+											<div class="form-group">
+												<input class="modal__section" type="tel" name="phone" required placeholder="Контактный телефон"/>
+											</div>
+										</div>
+
+										<div class="problem-form__block">
+											<button class="btn problem-form__btn" type="submit">Получить решение!</button>
+										</div>
+							</form>
+
+					</div>
+					
+			</div>
+
+		</section>
+
+		<section class="work" id="work">
+
+			<div class="container">
+				<div class="work__contain">
+
+					<div class="work__block">
+						<h2 class="h2 work__h2">Преимущества <br>работы с нами</h2>
+					</div>
+
+
+					<div class="work__block">
+						<img src="img/icon/shield.svg" alt="shield" class="work__svg">
+						<div class="work__title">БЕЗОПАСНОСТЬ</div>
+						<p class="work__text">Наш основной приоритет в работе. Наши действия по решению любых проблем - законны и деликатны.</p>
+					</div>
+
+					<div class="work__block">
+						<img src="img/icon/pig.svg" alt="shield" class="work__svg">
+						<div class="work__title">С НАМИ ВЫГОДНО</div>
+						<p class="work__text">Стоимость наших услуг соответствует их качеству, а ценность результата превышает Ваши затраты многократно.</p>
+					</div>
+
+					<div class="work__block">
+						<img src="img/icon/crown.svg" alt="shield" class="work__svg">
+						<div class="work__title">ПРОФЕССИОНАЛИЗМ <br>И УНИВЕРСАЛЬНОСТЬ</div>
+						<p class="work__text">Мы объединили высококлассных специалистов-профессионалов в различных областях права, учета и управления, что позволяет нам обеспечивать комплексный подход к любой проблеме, одновременно рассматривая ее в различных аспектах - юридическом, налоговом и управленческом.</p>
+					</div>
+
+					<div class="work__block">
+						<img src="img/icon/castle.svg" alt="shield" class="work__svg">
+						<div class="work__title">КОНФИДЕНЦИАЛЬНОСТЬ</div>
+						<p class="work__text">Мы соблюдаем конфиденциальность в отношении информации, полученной от наших клиентов и/или ставшей нам известной в ходе исполнения договора. Не раскрываем «имена» наших клиентов и не разглашаем эту информацию полностью или частично третьей стороне без предварительного письменного согласия другой стороны договора.</p>
+					</div>
+
+					<div class="work__block">
+						<img src="img/icon/men.svg" alt="shield" class="work__svg">
+						<div class="work__title">ГАРАНТИИ ПРОПИСАНЫ В ДОГОВОРЕ</div>
+						<p class="work__text">100 % гарантия возврата денежных средств, в случае если суд не признает Вас банкротом</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="work__form">
+			
+					<form class="form-work">
+						<div class="work__form-block">
+							<h3 class="work__form-title">Индивидуальное предложение <br>по решению Вашего вопроса</h3>
+						</div>
+						
+						<div class="work__form-block">
+							<input type="hidden" name="subject" value="Списать долги">
+							<div class="form-group">
+								<input class="modal__section" type="text" name="name" required placeholder="Ваше Имя"/>
+							</div>
+							<div class="form-group">
+								<input class="modal__section" type="tel" name="phone" required placeholder="Контактный телефон"/>
+							</div>
+						</div>
+
+						<div class="work__form-block">
+							<button class="btn problem-form__btn" type="submit">Списать долги</button>
+						</div>
+
+					</form>
+
+				</div>
+			</div>
+
+		</section>
+
+		<section class="reviews" id="reviews">
+			<img src="img/reviews-bg.png" alt="bg" class="reviews__bg">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="reviews__fon">
+						<h2 class="h2 reviews__h2">Отзывы</h2>
+						<div class="reviews__subtitle">(оригинальный текст, орфография и пунктуация – авторские)</div>
+
+
+						<div class="reviews__contain">
+							<div class="reviews__block">
+								<div class="reviews__block-title">ООО «СВ-Металлоконструкции»</div>
+								<p class="reviews__block-text">Решили с друзьями открыть «свое дело» по продаже металлоконструкций, возникли вопросы, что выбрать ИП или ООО, какую систему налогообложения. Столкнулись с очередями, нехваткой времени и недостаточными знаниями, обратились в компанию «Rod-consulting group» и заказали ООО «под ключ». Всем довольны, занимаемся продажами, не теряя времени на юридические моменты</p>
+							</div>
+
+							<div class="reviews__block">
+								<div class="reviews__block-title">ООО «СпецТехОборудование»</div>
+								<p class="reviews__block-text">Два года не получалось взыскать с контрагента по договору поставки дебиторскую задолженность, куда только не обращались. В течение 3 месяцев долг был взыскан в полном объеме плюс проценты за пользование чужими денежными средствами. Благодарим юристов «Rod-consulting group» за результат, профессионализм и быстроту.</p>
+							</div>
+
+							<div class="reviews__block">
+								<div class="reviews__block-title">Литвинова Кристина Викторовна, г.Белгород</div>
+								<p class="reviews__block-text">К юристам компании «Rod-consulting group» я обращалась не раз и абсолютно по разным вопросам – будь то оформление недвижимости, имущества, взыскание алиментов и другие гражданские ситуации. Последний раз я обратилась по вопросу банкротства физических лиц, т.к. из-за возникших жизненных трудностей я не смогла исполнить долг перед кредиторами, на что, Виталий Александрович подробно все рассказал, помог с оформлением документов, полностью сопроводил от начала процесса до последнего заседания, являлся в суд обосновывая мою ситуацию, защищая мои права и проконтролировал списание всех долгов перед банками. По времени процедура заняла ровно столько времени, сколько и обещал Виталий, а непредвиденных ситуаций не возникло, т.к. специалист предвидел все заранее, за что я ставлю наивысшую оценку его профессионализму!Спасибо огромное за проделанную работу, теперь благодаря Штыленко В.А. я официально и законно не имею задолженностей перед кредиторами. Непременно, буду рекомендовать всем и сама обращаться именно к этому юристу в дальнейшем.</p>
+							</div>
+
+						</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+
+						<div class="reviews__box">
+							<div class="reviews__title">Благодарственные письма <br>наших клиентов</div>
+								
+							  <div class="reviews__slider">
+							    <div><a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1-sm.jpg" alt="slide" class="reviews__img"></a></div>
+
+							    <div><a href="img/slider/2.jpg" data-fancybox="gallery"><img src="img/slider/2-sm.jpg" alt="slide" class="reviews__img"></a></div>
+
+							    <div><a href="img/slider/3.jpg" data-fancybox="gallery"><img src="img/slider/3-sm.jpg" alt="slide" class="reviews__img"></a></div>
+
+							    <div><a href="img/slider/4.jpg" data-fancybox="gallery"><img src="img/slider/4-sm.jpg" alt="slide" class="reviews__img"></a></div>
+
+							    <div><a href="img/slider/5.jpg" data-fancybox="gallery"><img src="img/slider/5-sm.jpg" alt="slide" class="reviews__img"></a></div>
+
+							    <div><a href="img/slider/6.jpg" data-fancybox="gallery"><img src="img/slider/6-sm.jpg" alt="slide" class="reviews__img"></a></div>
+
+							    <div><a href="img/slider/7.jpg" data-fancybox="gallery"><img src="img/slider/7-sm.jpg" alt="slide" class="reviews__img"></a></div>
+							  </div>
+							 	<div class="reviews__namber"><span id="cp"> 1 </span></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer" id="contact">
+
+		<div id="map"></div>
+
+		<div class="container">
+			<div class="footer__container">
+
+				<div class="footer__block">
+					<div class="footer__subtitle">Контакты</div>
+					<a href="mailto:rod-consulting@yandex.ru" class="header__mail footer__mail">rod-consulting@yandex.ru</a>
+					<div class="footer__place">Проспект Мира, 105, строение 1, офис 413 </div>
+				</div>
+
+				<div class="footer__block">
+					<div class="footer__tel"><i class="fa fa-phone-square"></i>8 (800) 777 01 58, +7 495 775 81 37</div>
+					<a href="#"  class="btn footer__btn callback_open">Заказать звонок</a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	
+	<div class="top" title="Наверх"><i class="fa fa-long-arrow-up"></i></div>
+
+	<div id="callback" class="modal">
+	  <button class="callback_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Обратный звонок</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form callback-form" method="post">
+
+	    <input type="hidden" name="subject" value="Обратный звонок">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать звонок">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-lite" class="modal">
+	  <button class="order-lite_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Заказать ТАРИФ «ЛАЙТ»</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-lite-form" method="post">
+
+	    <input type="hidden" name="subject" value="Заказать ТАРИФ «ЛАЙТ»">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-optimal" class="modal">
+	  <button class="order-optimal_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Заказать ТАРИФ «ОПТИМАЛЬНЫЙ»</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-optimal-form" method="post">
+
+	    <input type="hidden" name="subject" value="Заказать ТАРИФ «ОПТИМАЛЬНЫЙ»">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-premium" class="modal">
+	  <button class="order-premium_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Заказать ТАРИФ «ПРЕМИУМ»</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-premium-form" method="post">
+
+	    <input type="hidden" name="subject" value="Заказать ТАРИФ «ПРЕМИУМ»">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-u-optimal" class="modal">
+	  <button class="order-u-optimal_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Заказать ТАРИФ «ОПТИМАЛЬНЫЙ»</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-u-optimal-form" method="post">
+
+	    <input type="hidden" name="subject" value="Заказать ТАРИФ «ОПТИМАЛЬНЫЙ»">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-u-premium" class="modal">
+	  <button class="order-u-premium_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Заказать ТАРИФ «ПРЕМИУМ»</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-u-premium-form" method="post">
+
+	    <input type="hidden" name="subject" value="Заказать ТАРИФ «ПРЕМИУМ»">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-consultation" class="modal">
+	  <button class="order-consultation_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ ПРЯМО СЕЙЧАС</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-consultation-form" method="post">
+
+	    <input type="hidden" name="subject" value="БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-offer" class="modal">
+	  <button class="order-offer_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Получить уникальное предложение по специальной цене ПРЯМО СЕЙЧАС!</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-offer-form" method="post">
+
+	    <input type="hidden" name="subject" value="Получить уникальное предложение по специальной цене ПРЯМО СЕЙЧАС!">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-law" class="modal">
+	  <button class="order-law_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Узнайте, как прекратить суды и исполнительное производство</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-law-form" method="post">
+
+	    <input type="hidden" name="subject" value="Узнайте, как прекратить суды и исполнительное производство">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-debt" class="modal">
+	  <button class="order-debt_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ ПРЯМО СЕЙЧАС</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-debt-form" method="post">
+
+	    <input type="hidden" name="subject" value="ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ ПРЯМО СЕЙЧАС">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-communal" class="modal">
+	  <button class="order-communal_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Списать все долги по налогам, взносам и ЖКХ!</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-communal-form" method="post">
+
+	    <input type="hidden" name="subject" value="Списать все долги по налогам, взносам и ЖКХ!">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-world" class="modal">
+	  <button class="order-world_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Хочу открыть для себя весь мир!</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-world-form" method="post">
+
+	    <input type="hidden" name="subject" value="Хочу открыть для себя весь мир!">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+	<div id="order-fine" class="modal">
+	  <button class="order-fine_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Узнайте, как сохранить эти деньги</h3>
+	  <p>Заполните форму и наш менеджер свяжется с вами в течение 5 минут</p>
+
+	  <form action="sendmail.php" class="row form order-fine-form" method="post">
+
+	    <input type="hidden" name="subject" value="Штрафы, неустойки, пени">
+
+	    <div class="col-sm-12 form-group">
+	      <input type="text" class="modal__section" name="name" placeholder="Ваше имя" required>
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="tel" name="phone" class="modal__section" required placeholder="Ваш телефон" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+	    </div>
+
+	    <div class="col-sm-12 form-group">
+	      <input type="submit" class="btn form__btn" name="submit" value="Заказать услугу">
+	    </div>
+
+	  </form>
+	</div>
+
+  <div id="thanks" class="modal">
+	  <button class="thanks_close modal__close">
+	    Close
+	    <span class="modal__close-line"></span>
+	  </button>
+	  <h3>Спасобо за заказ</h3>
+	  <p>Скоро мы Вам перезвоним!</p>
+	</div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+	<script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
+	<script>
+  function initMap() {
+    var uluru = {lat: 55.8151925, lng: 37.6374485};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: uluru,
+      styles: [
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": "-100"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+			            {
+			                "visibility": "off"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "landscape",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "saturation": -100
+			            },
+			            {
+			                "lightness": 65
+			            },
+			            {
+			                "visibility": "on"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "poi",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "saturation": -100
+			            },
+			            {
+			                "lightness": "50"
+			            },
+			            {
+			                "visibility": "simplified"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "road",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "saturation": "-100"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "road.highway",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "visibility": "simplified"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "road.arterial",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "lightness": "30"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "road.local",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "lightness": "40"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "transit",
+			        "elementType": "all",
+			        "stylers": [
+			            {
+			                "saturation": -100
+			            },
+			            {
+			                "visibility": "simplified"
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "water",
+			        "elementType": "geometry",
+			        "stylers": [
+			            {
+			                "hue": "#ffff00"
+			            },
+			            {
+			                "lightness": -25
+			            },
+			            {
+			                "saturation": -97
+			            }
+			        ]
+			    },
+			    {
+			        "featureType": "water",
+			        "elementType": "labels",
+			        "stylers": [
+			            {
+			                "lightness": -25
+			            },
+			            {
+			                "saturation": -100
+			            }
+			        ]
+			    }
+					]
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmnk4RCDwjSucIJ2WXRnLkuCrsWR4DUM4&callback=initMap"></script>
+
+</body>
+</html>
